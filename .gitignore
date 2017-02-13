@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+bin/*
+include/*
+pip-selfcheck.json
+man/*
+
 # Distribution / packaging
 .Python
 env/

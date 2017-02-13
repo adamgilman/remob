@@ -1,0 +1,11 @@
+appdirs==1.4.0
+colorama==0.3.7
+MacFSEvents==0.7
+mockredispy==2.9.3
+nose==1.3.7
+packaging==16.8
+pyparsing==2.1.10
+python-termstyle==0.1.10
+redis==2.10.5
+six==1.10.0
+sniffer==0.4.0
