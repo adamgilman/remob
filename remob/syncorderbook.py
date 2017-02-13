@@ -62,7 +62,7 @@ class SyncOrderBook(object):
 			it is THEIR responsibilty to guarantee
 			uniqueness, use at own peril 
 			'''
-			pass
+			self.bookname = bookname
 
 		self.bid = SyncOrderBookSide(self.bookname, 'bid', self.redis)
 		self.ask = SyncOrderBookSide(self.bookname, 'ask', self.redis)
